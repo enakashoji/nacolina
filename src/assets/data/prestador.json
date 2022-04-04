@@ -1,0 +1,293 @@
+{
+	"lista": [
+		{
+			"uid": "1",
+			"nome": "Casa Aki",
+			"endereco": "Rua Rio Preto quadra 52 lote 5",
+			"contatos": [
+				{
+					"tipo": "insta",
+					"endereco": "@casa.aki"
+				},
+				{
+					"tipo": "whatsApp",
+					"endereco": "61984247461"
+				}
+			]
+		},
+		{
+			"uid": "2",
+			"nome": "RESERVA CAIUÁ HOSPEDAGEM",
+			"endereco": "Lote 6, quadra 52, rua Rio Preto",
+			"contatos": [
+				{
+					"tipo": "insta",
+					"endereco": "@reservacaiua"
+				},
+				{
+					"tipo": "cel",
+					"endereco": "61992210879"
+				},
+				{
+					"tipo": "whatsApp",
+					"endereco": "61999458441"
+				}
+			]
+		},
+		{
+			"uid": "3",
+			"nome": "TEMPEROS DA CENA CAFÉ DA MANHÃ, ALMOÇO E JANTAR",
+			"endereco": "GO 239 - Saída para São Jorge",
+			"contatos": [
+				{
+					"tipo": "insta",
+					"endereco": "@temperosdacena"
+				},
+				{
+					"tipo": "whatsApp",
+					"endereco": "62999575088"
+				}
+			]
+		},
+		{
+			"uid": "4",
+			"nome": "AQUARELA EMPÓRIO E BISTRÔ & ALIMENTAÇÃO E PRODUTOS ARTESANAIS",
+			"endereco": "Avenida Ari Valadão",
+			"contatos": [
+				{
+					"tipo": "insta",
+					"endereco": "@aquarelaemporiobistro"
+				},
+				{
+					"tipo": "whatsApp",
+					"endereco": "6299658-9447"
+				}
+			]
+		},
+		{
+			"uid": "5",
+			"nome": "CABANA DO PESCADOR PASSEIO, PESCARIA E ALIMENTAÇÃO",
+			"endereco": "Porto comunitário, Lago Serra da Mesa",
+			"contatos": [
+				{
+					"tipo": "insta",
+					"endereco": "@cabanadopescador.go"
+				},
+				{
+					"tipo": "cel",
+					"endereco": "62999252651"
+				}
+			]
+		},
+		{
+			"uid": "6",
+			"nome": "CERRATENSE DELIVERY HMBURGUERIA ARTESANAL",
+			"endereco": "Rua JK Q41 lt 7",
+			"contatos": [
+				{
+					"tipo": "insta",
+					"endereco": "@cerratenseburguer"
+				},
+				{
+					"tipo": "cel",
+					"endereco": "62996949024"
+				}
+			]
+		},
+		{
+			"uid": "7",
+			"nome": "COLINAS CONSTRUÇÕES MATERIAIS DE CONSTRUÇÃO",
+			"endereco": "Rua 02 Q. 04 Lote 12 - Novo Mutirão",
+			"contatos": [
+				{
+					"tipo": "insta",
+					"endereco": "@colinasconstrucoes"
+				},
+				{
+					"tipo": "",
+					"endereco": "62999159314"
+				}
+			]
+		},
+		{
+			"uid": "8",
+			"nome": "D'BOA ECOPARQUE HOSPEDAGEM, LAZER E AVENTURAS",
+			"endereco": "Fazenda Santa Cruz - Saída p/ Niquelândia",
+			"contatos": [
+				{
+					"tipo": "insta",
+					"endereco": "@dboaecoparque"
+				},
+				{
+					"tipo": "",
+					"endereco": "62996745511"
+				}
+			]
+		},
+		{
+			"uid": "9",
+			"nome": "FAZENDA CATALÃO HOSPEDAGEM, LAZER E AVENTURAS",
+			"endereco": "Zona Rural - Saída p/ Niquelândia",
+			"contatos": [
+				{
+					"tipo": "insta",
+					"endereco": "@fazendacatalao"
+				},
+				{
+					"tipo": "",
+					"endereco": "61999990362"
+				}
+			]
+		},
+		{
+			"uid": "10",
+			"nome": "JOÃO HENRIQUE GUIA DE TURISMO",
+			"endereco": "Ecoturismo na Chapada",
+			"contatos": [
+				{
+					"tipo": "insta",
+					"endereco": "@guiachapada.jh"
+				},
+				{
+					"tipo": "",
+					"endereco": "61999447558"
+				}
+			]
+		},
+		{
+			"uid": "11",
+			"nome": "LEONARDO ABDALLAH GUIA DE TURISMO",
+			"endereco": "Ecoturismo na Chapada",
+			"contatos": [
+				{
+					"tipo": "insta",
+					"endereco": "@canastra.guianachapada"
+				},
+				{
+					"tipo": "",
+					"endereco": "62994273851"
+				}
+			]
+		},
+		{
+			"uid": "12",
+			"nome": "NATIVOS TURISMO E CULTURA OPERADORA DE TURISMO",
+			"endereco": "Colinas do Sul",
+			"contatos": [
+				{
+					"tipo": "insta",
+					"endereco": "@nativosturismoecultura"
+				},
+				{
+					"tipo": "",
+					"endereco": "62992101388"
+				}
+			]
+		},
+		{
+			"uid": "13",
+			"nome": "NO PÉ DA SERRA ATRATIVOS, PESQUEIRO E RESTAURANTE",
+			"endereco": "GO-239 km 103 - SENTIDO S O JORGE",
+			"contatos": [
+				{
+					"tipo": "insta",
+					"endereco": "@pesqueironopedaserra"
+				},
+				{
+					"tipo": "",
+					"endereco": "62999386994"
+				}
+			]
+		},
+		{
+			"uid": "14",
+			"nome": "OBSERVATÓRIO DO VALE MIRANTE BAR, HOSPEDAGEM E EVENTOS",
+			"endereco": "GO-239 km 96 SENTIDO SÃO JORGE",
+			"contatos": [
+				{
+					"tipo": "insta",
+					"endereco": "@observatorio_do_vale"
+				},
+				{
+					"tipo": "",
+					"endereco": "61999908383"
+				}
+			]
+		},
+		{
+			"uid": "15",
+			"nome": "POUSO DE CAROLA HOSPEDAGEM",
+			"endereco": "Rua dos Bandeirantes, Q 09 L 01, Centro",
+			"contatos": [
+				{
+					"tipo": "insta",
+					"endereco": "@pousodecarola"
+				},
+				{
+					"tipo": "",
+					"endereco": "61999447558"
+				}
+			]
+		},
+		{
+			"uid": "16",
+			"nome": "POUSADA VALE DAS ARARAS HOSPEDAGEM",
+			"endereco": "GO 132 - Saída para Niquelândia",
+			"contatos": [
+				{
+					"tipo": "insta",
+					"endereco": "@valedasararas"
+				},
+				{
+					"tipo": "",
+					"endereco": "62998040489"
+				}
+			]
+		},
+		{
+			"uid": "17",
+			"nome": "RANCHO TIKIM DE TERRA HOSPEDAGEM",
+			"endereco": "Entre o Ribeirão dos Padres e o Fradinho",
+			"contatos": [
+				{
+					"tipo": "insta",
+					"endereco": "@rancho.tikimdeterra"
+				},
+				{
+					"tipo": "",
+					"endereco": "61999111522"
+				}
+			]
+		},
+		{
+			"uid": "18",
+			"nome": "RESTAURANTE E HAMBURGUERIA NA BRASA ALIMENTAÇÃO",
+			"endereco": "Rua Minas Gerais, Q. 76 L. 3, S/N Setor Central",
+			"contatos": [
+				{
+					"tipo": "insta",
+					"endereco": "@restaurante_hamburgueria"
+				},
+				{
+					"tipo": "cel",
+					"endereco": "62991300180"
+				}
+			]
+		},
+		{
+			"uid": "20",
+			"nome": "RECANTO DAS FLORES HOSPEDAGEM- CHALÉS",
+			"endereco": "Rua Campinas Qd 36 Lote 02- Centro",
+			"contatos": [
+				{
+					"tipo": "insta",
+					"endereco": "@recanto_dasfloress"
+				},
+				{
+					"tipo": "cel",
+					"endereco": "61999700941"
+				}
+			]
+		}
+	]
+}
