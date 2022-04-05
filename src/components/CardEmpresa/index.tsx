@@ -8,6 +8,7 @@ import {
 import {
 	BoxContato,
 	BoxDescricao,
+	BoxIcon,
 	BoxImagem,
 	BoxTitulo,
 	Container,
@@ -41,10 +42,9 @@ const CardEmpresa = ({ ...props }) => {
 
 	const renderItem: ListRenderItem<Contato> = ({ item }) => {
 		return (
-			<BoxContato onPress={() => handleClick(item)}>
+			<BoxIcon onPress={() => handleClick(item)}>
 				<Icon name={item.tipo === 'insta' ? 'instagram' : 'whatsapp'} />
-				<Texto>{item.endereco}</Texto>
-			</BoxContato>
+			</BoxIcon>
 		);
 	};
 
@@ -57,11 +57,13 @@ const CardEmpresa = ({ ...props }) => {
 				<BoxTitulo>
 					<Titulo>{props['nome']}</Titulo>
 				</BoxTitulo>
-				<FlatList
-					data={props['contatos']}
-					keyExtractor={(item) => item.endereco}
-					renderItem={renderItem}
-				/>
+				<BoxContato>
+					<FlatList
+						data={props['contatos']}
+						keyExtractor={(item) => item.endereco}
+						renderItem={renderItem}
+					/>
+				</BoxContato>
 			</BoxDescricao>
 		</Container>
 	);

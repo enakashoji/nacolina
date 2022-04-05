@@ -16,7 +16,7 @@ export const BoxImagem = styled.View`
 	border-radius: ${RFValue(20)}px;
 	align-items: center;
 	justify-content: center;
-	background-color: ${({ theme }) => theme.colors.icone_verde_agua_claro};
+	background-color: ${({ theme }) => theme.colors.fundo_vermelho};
 `;
 
 export const BoxDescricao = styled.View`
@@ -26,11 +26,14 @@ export const BoxDescricao = styled.View`
 export const BoxTitulo = styled.View`
 	padding: ${RFValue(8)}px;
 `;
-export const BoxContato = styled.TouchableOpacity`
+export const BoxContato = styled.View`
 	flex-direction: row;
+	background-color: yellowgreen;
+`;
+
+export const BoxIcon = styled.TouchableOpacity`
 	align-items: center;
-	padding: 5px;
-	align-items: center;
+	background-color: purple;
 `;
 
 export const Texto = styled.Text`
@@ -47,7 +50,7 @@ export const Titulo = styled.Text`
 
 export const Icon = styled(MaterialCommunityIcons)`
 	color: ${({ theme }) => theme.colors.texto_claro};
-	font-size: ${RFValue(12)}px;
+	font-size: ${RFValue(36)}px;
 	padding-right: 5px;
 `;
 

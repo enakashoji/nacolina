@@ -13,6 +13,7 @@ export default {
 		icone_turquesa_claro: '#D6F0F5',
 		icone_roxo: '#7F0DF1',
 		icone_roxo_claro: '#E6CFFC',
+		fundo_vermelho: '#FFA6A6',
 	},
 	fonts: {
 		primary_400: 'OpenSans_400Regular',
