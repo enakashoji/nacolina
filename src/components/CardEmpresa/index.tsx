@@ -32,10 +32,10 @@ export interface CardProps extends TouchableOpacityProps {
 const CardEmpresa = ({ ...props }) => {
 	const handleClick = (contato: Contato) => {
 		if (contato.tipo === 'insta') {
-			Linking.openURL(`instagram://user?username=@${contato.endereco}`);
+			Linking.openURL(`https://www.instagram.com/${contato.endereco}`);
 		}
 		if (contato.tipo === 'whats') {
-			Linking.openURL(`whatsapp://${contato.endereco}`);
+			Linking.openURL(`https://wa.me/55${contato.endereco}`);
 		}
 	};
 
