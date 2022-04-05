@@ -1,10 +1,9 @@
 {
-  "expo": {
-    "name": "nacolina",
-    "slug": "nacolina",
-    "version": "1.0.0",
-    "assetBundlePatterns": [
-      "**/*"
-    ]
-  }
+	"expo": {
+		"name": "nacolina",
+		"scheme": "nacolina",
+		"slug": "nacolina",
+		"version": "1.0.0",
+		"assetBundlePatterns": ["**/*"]
+	}
 }
