@@ -7,10 +7,10 @@
 			"contatos": [
 				{
 					"tipo": "insta",
-					"endereco": "@casa.aki"
+					"endereco": "casa.aki"
 				},
 				{
-					"tipo": "whatsApp",
+					"tipo": "whats",
 					"endereco": "61984247461"
 				}
 			]
@@ -22,14 +22,10 @@
 			"contatos": [
 				{
 					"tipo": "insta",
-					"endereco": "@reservacaiua"
+					"endereco": "reservacaiua"
 				},
 				{
-					"tipo": "cel",
-					"endereco": "61992210879"
-				},
-				{
-					"tipo": "whatsApp",
+					"tipo": "whats",
 					"endereco": "61999458441"
 				}
 			]
@@ -41,10 +37,10 @@
 			"contatos": [
 				{
 					"tipo": "insta",
-					"endereco": "@temperosdacena"
+					"endereco": "temperosdacena"
 				},
 				{
-					"tipo": "whatsApp",
+					"tipo": "whats",
 					"endereco": "62999575088"
 				}
 			]
@@ -56,10 +52,10 @@
 			"contatos": [
 				{
 					"tipo": "insta",
-					"endereco": "@aquarelaemporiobistro"
+					"endereco": "aquarelaemporiobistro"
 				},
 				{
-					"tipo": "whatsApp",
+					"tipo": "whats",
 					"endereco": "6299658-9447"
 				}
 			]
@@ -71,10 +67,10 @@
 			"contatos": [
 				{
 					"tipo": "insta",
-					"endereco": "@cabanadopescador.go"
+					"endereco": "cabanadopescador.go"
 				},
 				{
-					"tipo": "cel",
+					"tipo": "other",
 					"endereco": "62999252651"
 				}
 			]
@@ -86,10 +82,10 @@
 			"contatos": [
 				{
 					"tipo": "insta",
-					"endereco": "@cerratenseburguer"
+					"endereco": "cerratenseburguer"
 				},
 				{
-					"tipo": "cel",
+					"tipo": "other",
 					"endereco": "62996949024"
 				}
 			]
@@ -101,7 +97,7 @@
 			"contatos": [
 				{
 					"tipo": "insta",
-					"endereco": "@colinasconstrucoes"
+					"endereco": "colinasconstrucoes"
 				},
 				{
 					"tipo": "",
@@ -116,7 +112,7 @@
 			"contatos": [
 				{
 					"tipo": "insta",
-					"endereco": "@dboaecoparque"
+					"endereco": "dboaecoparque"
 				},
 				{
 					"tipo": "",
@@ -131,7 +127,7 @@
 			"contatos": [
 				{
 					"tipo": "insta",
-					"endereco": "@fazendacatalao"
+					"endereco": "fazendacatalao"
 				},
 				{
 					"tipo": "",
@@ -146,7 +142,7 @@
 			"contatos": [
 				{
 					"tipo": "insta",
-					"endereco": "@guiachapada.jh"
+					"endereco": "guiachapada.jh"
 				},
 				{
 					"tipo": "",
@@ -161,7 +157,7 @@
 			"contatos": [
 				{
 					"tipo": "insta",
-					"endereco": "@canastra.guianachapada"
+					"endereco": "canastra.guianachapada"
 				},
 				{
 					"tipo": "",
@@ -176,7 +172,7 @@
 			"contatos": [
 				{
 					"tipo": "insta",
-					"endereco": "@nativosturismoecultura"
+					"endereco": "nativosturismoecultura"
 				},
 				{
 					"tipo": "",
@@ -191,7 +187,7 @@
 			"contatos": [
 				{
 					"tipo": "insta",
-					"endereco": "@pesqueironopedaserra"
+					"endereco": "pesqueironopedaserra"
 				},
 				{
 					"tipo": "",
@@ -206,7 +202,7 @@
 			"contatos": [
 				{
 					"tipo": "insta",
-					"endereco": "@observatorio_do_vale"
+					"endereco": "observatorio_do_vale"
 				},
 				{
 					"tipo": "",
@@ -221,7 +217,7 @@
 			"contatos": [
 				{
 					"tipo": "insta",
-					"endereco": "@pousodecarola"
+					"endereco": "pousodecarola"
 				},
 				{
 					"tipo": "",
@@ -236,7 +232,7 @@
 			"contatos": [
 				{
 					"tipo": "insta",
-					"endereco": "@valedasararas"
+					"endereco": "valedasararas"
 				},
 				{
 					"tipo": "",
@@ -251,7 +247,7 @@
 			"contatos": [
 				{
 					"tipo": "insta",
-					"endereco": "@rancho.tikimdeterra"
+					"endereco": "rancho.tikimdeterra"
 				},
 				{
 					"tipo": "",
@@ -266,10 +262,10 @@
 			"contatos": [
 				{
 					"tipo": "insta",
-					"endereco": "@restaurante_hamburgueria"
+					"endereco": "restaurante_hamburgueria"
 				},
 				{
-					"tipo": "cel",
+					"tipo": "other",
 					"endereco": "62991300180"
 				}
 			]
@@ -281,10 +277,10 @@
 			"contatos": [
 				{
 					"tipo": "insta",
-					"endereco": "@recanto_dasfloress"
+					"endereco": "recanto_dasfloress"
 				},
 				{
-					"tipo": "cel",
+					"tipo": "other",
 					"endereco": "61999700941"
 				}
 			]
