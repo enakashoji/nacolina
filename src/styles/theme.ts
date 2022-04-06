@@ -14,6 +14,10 @@ export default {
 		icone_roxo: '#7F0DF1',
 		icone_roxo_claro: '#E6CFFC',
 		fundo_vermelho: '#FFA6A6',
+		icone_vermelho: '#c72418',
+
+		whats_color: '#075E54',
+		insta_color: '#bc2a8d',
 	},
 	fonts: {
 		primary_400: 'OpenSans_400Regular',

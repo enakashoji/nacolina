@@ -1,22 +1,20 @@
 import React from 'react';
-import {
-	FlatList,
-	Linking,
-	ListRenderItem,
-	TouchableOpacityProps,
-} from 'react-native';
+import { Linking, TouchableOpacityProps } from 'react-native';
 import {
 	BoxContato,
 	BoxDescricao,
-	BoxIcon,
 	BoxImagem,
 	BoxTitulo,
 	Container,
-	Icon,
 	Logo,
-	Texto,
 	Titulo,
 } from './styles';
+
+import Insta from '../../assets/imagens/insta.svg';
+import Whats from '../../assets/imagens/whats.svg';
+import { Image } from 'react-native-svg';
+import { RFValue } from 'react-native-responsive-fontsize';
+import ContactButton from '../ContactButton';
 
 interface Contato {
 	tipo: 'insta' | 'whats' | 'other';
@@ -31,21 +29,8 @@ export interface CardProps extends TouchableOpacityProps {
 }
 
 const CardEmpresa = ({ ...props }) => {
-	const handleClick = (contato: Contato) => {
-		if (contato.tipo === 'insta') {
-			Linking.openURL(`https://www.instagram.com/${contato.endereco}`);
-		}
-		if (contato.tipo === 'whats') {
-			Linking.openURL(`https://wa.me/55${contato.endereco}`);
-		}
-	};
-
-	const renderItem: ListRenderItem<Contato> = ({ item }) => {
-		return (
-			<BoxIcon onPress={() => handleClick(item)}>
-				<Icon name={item.tipo === 'insta' ? 'instagram' : 'whatsapp'} />
-			</BoxIcon>
-		);
+	const renderItem = (item: Contato, index: number) => {
+		return <ContactButton key={index} contact={item} />;
 	};
 
 	return (
@@ -58,11 +43,9 @@ const CardEmpresa = ({ ...props }) => {
 					<Titulo>{props['nome']}</Titulo>
 				</BoxTitulo>
 				<BoxContato>
-					<FlatList
-						data={props['contatos']}
-						keyExtractor={(item) => item.endereco}
-						renderItem={renderItem}
-					/>
+					{props['contatos'].map((contato, index) =>
+						renderItem(contato, index)
+					)}
 				</BoxContato>
 			</BoxDescricao>
 		</Container>
