@@ -10,6 +10,7 @@ import Home from './src/screens/Home';
 import AppLoading from 'expo-app-loading';
 import { ThemeProvider } from 'styled-components';
 import theme from './src/styles/theme';
+import { SafeAreaProvider } from 'react-native-safe-area-context';
 
 const prefix = Linking.createURL('/');
 
@@ -29,7 +30,9 @@ export default function App() {
 	}
 	return (
 		<ThemeProvider theme={theme}>
-			<Home />
+			<SafeAreaProvider>
+				<Home />
+			</SafeAreaProvider>
 		</ThemeProvider>
 	);
 }

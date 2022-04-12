@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useCallback, useEffect, useState } from 'react';
 import {
 	BoxClear,
 	BoxFiltro,
@@ -9,27 +9,32 @@ import {
 } from './styles';
 
 interface FiltroProps {
-	textoBusca: string;
 	onSearch?: (texto: string) => void;
 	onClear?: () => void;
 }
 
-const FiltroEmpresa: React.FC<FiltroProps> = ({
-	textoBusca,
-	onSearch,
-	onClear,
-}) => {
+const FiltroEmpresa: React.FC<FiltroProps> = ({ onSearch, onClear }) => {
+	const [busca, setBusca] = useState('');
+
+	useEffect(() => {
+		onSearch(busca);
+	}, [busca]);
+
+	onClear = useCallback(() => {
+		setBusca('');
+	}, [onClear]);
+
 	return (
 		<Container>
 			<BoxFiltro>
-				<BoxIcon>{textoBusca.length <= 0 && <Icon name={'search'} />}</BoxIcon>
+				<BoxIcon>{busca.length <= 0 && <Icon name={'search'} />}</BoxIcon>
 				<Filtro
 					placeholder={'Buscar...'}
-					onChangeText={(textoBusca) => onSearch(textoBusca)}
-					value={textoBusca}
+					onChangeText={setBusca}
+					value={busca}
 				/>
 				<BoxClear onPress={onClear}>
-					{textoBusca.length > 0 && <Icon name={'x'} />}
+					{busca.length > 0 && <Icon name={'x'} />}
 				</BoxClear>
 			</BoxFiltro>
 		</Container>

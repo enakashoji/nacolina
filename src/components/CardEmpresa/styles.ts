@@ -7,7 +7,6 @@ interface TypeProps {
 }
 
 export const Container = styled.View`
-	flex: 1;
 	flex-direction: row;
 	margin-bottom: ${RFValue(14)}px;
 	border-radius: ${RFValue(20)}px;
@@ -28,11 +27,12 @@ export const BoxDescricao = styled.View`
 	width: 65%;
 `;
 export const BoxTitulo = styled.View`
-	padding: ${RFValue(8)}px;
+	padding: ${RFValue(8)}px ${RFValue(20)}px;
 `;
 export const BoxContato = styled.View`
+	justify-content: space-between;
 	flex-direction: row;
-	padding-bottom: 10px;
+	padding: ${RFValue(10)}px ${RFValue(30)}px;
 `;
 
 export const Texto = styled.Text`

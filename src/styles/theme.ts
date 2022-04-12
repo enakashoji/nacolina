@@ -4,7 +4,7 @@ export default {
 		fundo_campo: '#F7F7F7',
 		texto: '#0D0D0D',
 		texto_claro: '#ABABAB',
-		icone_azul: '#0336FF',
+		icone_azul: '#0336ff',
 		icone_laranja: '#F87F06',
 		icone_laranja_claro: '#FEE5CD',
 		icone_verde_agua: '#2AD5C6',

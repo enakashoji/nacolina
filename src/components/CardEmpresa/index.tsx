@@ -10,10 +10,6 @@ import {
 	Titulo,
 } from './styles';
 
-import Insta from '../../assets/imagens/insta.svg';
-import Whats from '../../assets/imagens/whats.svg';
-import { Image } from 'react-native-svg';
-import { RFValue } from 'react-native-responsive-fontsize';
 import ContactButton from '../ContactButton';
 
 interface Contato {
@@ -29,8 +25,8 @@ export interface CardProps extends TouchableOpacityProps {
 }
 
 const CardEmpresa = ({ ...props }) => {
-	const renderItem = (item: Contato, index: number) => {
-		return <ContactButton key={index} contact={item} />;
+	const renderItem = (item: Contato) => {
+		return <ContactButton key={item.tipo} contact={item} />;
 	};
 
 	return (
@@ -43,9 +39,7 @@ const CardEmpresa = ({ ...props }) => {
 					<Titulo>{props['nome']}</Titulo>
 				</BoxTitulo>
 				<BoxContato>
-					{props['contatos'].map((contato, index) =>
-						renderItem(contato, index)
-					)}
+					{props['contatos'].map((contato) => renderItem(contato))}
 				</BoxContato>
 			</BoxDescricao>
 		</Container>

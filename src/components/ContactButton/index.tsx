@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useCallback, useEffect } from 'react';
 import { Linking, Platform, TouchableOpacityProps } from 'react-native';
 import { Container, Icon } from './styles';
 
@@ -34,11 +34,11 @@ const ContactButton = ({ contact }) => {
 		Linking.openURL(`https://wa.me/55${contact.endereco}`);
 	};
 
-	const handleClick = (contact) => {
+	const handleClick = useCallback((contact) => {
 		if (contact.tipo === 'insta') openInsta();
 		if (contact.tipo === 'whats') openWhats();
 		if (contact.tipo === 'maps') openMaps();
-	};
+	}, []);
 
 	return (
 		<Container key={contact.tipo} onPress={() => handleClick(contact)}>

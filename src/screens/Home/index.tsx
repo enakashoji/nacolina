@@ -1,58 +1,55 @@
-import React, { useEffect, useMemo, useState } from 'react';
-import { FlatList, StatusBar } from 'react-native';
-import { BoxLista, Container } from './styles';
+import React, { useCallback, useEffect, useMemo, useState } from 'react';
+import { ActivityIndicator } from 'react-native';
+import { Container } from './styles';
 import * as prestador from '../../assets/data/prestador.json';
-import CardEmpresa from '../../components/CardEmpresa';
 import FiltroEmpresa from '../../components/FiltroEmpresa';
+import ListaEmpresa from '../../components/ListaEmpresa';
+
+interface Contato {
+	tipo: 'insta' | 'whats' | 'other';
+	endereco: string;
+}
+interface EmpresaProps {
+	uid: string;
+	nome: string;
+	endereco: string;
+	contatos: Array<Contato>;
+}
 
 const Home = () => {
-	const renderItem = ({ item }) => <CardEmpresa {...item} />;
-	const [lista, setLista] = useState(prestador.lista);
+	const initialState = prestador.lista;
+
+	const [lista, setLista] = useState(initialState);
 	const [filtro, setFiltro] = useState('');
 	const [loading, setLoading] = useState(false);
 
-	// const listaFiltred = useMemo(
-	// 	() => lista.filter((empresa) => filtro.includes(empresa.nome)),
-	// 	[lista, filtro]
-	// );
-
-	const handleTyping = (texto: string) => {
-		console.log('Maldito!', texto.length);
-		setLoading(true);
-		setFiltro(texto);
-		if (texto?.length > 0)
-			setLista(
-				lista.filter((empresa) =>
-					empresa.nome.toUpperCase().includes(filtro.toUpperCase())
-				)
-			);
-		setLoading(false);
-	};
-
-	const handleClear = () => {
+	const handleClear = useCallback(() => {
 		setLoading(true);
 		setFiltro('');
-		setLista(prestador.lista);
 		setLoading(false);
-	};
+	}, []);
+
+	useEffect(() => {
+		setLoading(true);
+		setLista(() =>
+			initialState.filter((empresa) =>
+				empresa.nome.toUpperCase().includes(filtro.toUpperCase())
+			)
+		);
+		setLoading(false);
+	}, [filtro]);
+
+	useMemo(() => {
+		lista.filter((empresa) =>
+			empresa.nome.toUpperCase().includes(filtro.toUpperCase())
+		);
+	}, [lista]);
 
 	return (
 		<Container>
-			<StatusBar
-				barStyle='light-content'
-				backgroundColor={'transparent'}></StatusBar>
-			<FiltroEmpresa
-				textoBusca={filtro}
-				onSearch={handleTyping}
-				onClear={handleClear}
-			/>
-			<BoxLista>
-				<FlatList
-					data={lista}
-					keyExtractor={(item) => item.uid}
-					renderItem={renderItem}
-				/>
-			</BoxLista>
+			<ActivityIndicator animating={true} />
+			<FiltroEmpresa onSearch={setFiltro} onClear={handleClear} />
+			<ListaEmpresa lista={lista} />
 		</Container>
 	);
 };
