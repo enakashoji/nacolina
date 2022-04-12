@@ -3,6 +3,10 @@
 		{
 			"uid": "1",
 			"nome": "CASA AKI",
+			"categoria": {
+				"uid": 1,
+				"descricao": "HOSPEDAGEM"
+			},
 			"endereco": "Rua Rio Preto quadra 52 lote 5",
 			"contatos": [
 				{
@@ -22,6 +26,10 @@
 		{
 			"uid": "2",
 			"nome": "RESERVA CAIUÁ",
+			"categoria": {
+				"uid": 1,
+				"descricao": "HOSPEDAGEM"
+			},
 			"endereco": "Lote 6, quadra 52, rua Rio Preto",
 			"contatos": [
 				{
@@ -41,6 +49,10 @@
 		{
 			"uid": "3",
 			"nome": "TEMPEROS DA CENA",
+			"categoria": {
+				"uid": 2,
+				"descricao": "ALIMENTACAO"
+			},
 			"endereco": "GO 239 - Saída para São Jorge",
 			"contatos": [
 				{
@@ -56,6 +68,10 @@
 		{
 			"uid": "4",
 			"nome": "AQUARELA EMPÓRIO E BISTRÔ",
+			"categoria": {
+				"uid": 2,
+				"descricao": "ALIMENTACAO"
+			},
 			"endereco": "Avenida Ari Valadão",
 			"contatos": [
 				{
@@ -71,6 +87,10 @@
 		{
 			"uid": "5",
 			"nome": "CABANA DO PESCADOR",
+			"categoria": {
+				"uid": 3,
+				"descricao": "RECEPTIVO"
+			},
 			"endereco": "Porto comunitário, Lago Serra da Mesa",
 			"contatos": [
 				{
@@ -86,6 +106,10 @@
 		{
 			"uid": "6",
 			"nome": "CERRATENSE HAMBURGUERIA ARTESANAL",
+			"categoria": {
+				"uid": 2,
+				"descricao": "ALIMENTACAO"
+			},
 			"endereco": "Rua JK Q41 lt 7",
 			"contatos": [
 				{
@@ -99,23 +123,12 @@
 			]
 		},
 		{
-			"uid": "7",
-			"nome": "COLINAS CONSTRUÇÕES",
-			"endereco": "Rua 02 Q. 04 Lote 12 - Novo Mutirão",
-			"contatos": [
-				{
-					"tipo": "insta",
-					"endereco": "colinasconstrucoes"
-				},
-				{
-					"tipo": "whats",
-					"endereco": "62999159314"
-				}
-			]
-		},
-		{
 			"uid": "8",
 			"nome": "D'BOA ECOPARQUE",
+			"categoria": {
+				"uid": 3,
+				"descricao": "RECEPTIVO"
+			},
 			"endereco": "Fazenda Santa Cruz - Saída p/ Niquelândia",
 			"contatos": [
 				{
@@ -131,6 +144,10 @@
 		{
 			"uid": "9",
 			"nome": "FAZENDA CATALÃO",
+			"categoria": {
+				"uid": 3,
+				"descricao": "RECEPTIVO"
+			},
 			"endereco": "Zona Rural - Saída p/ Niquelândia",
 			"contatos": [
 				{
@@ -146,6 +163,10 @@
 		{
 			"uid": "10",
 			"nome": "JOÃO HENRIQUE GUIA DE TURISMO",
+			"categoria": {
+				"uid": 4,
+				"descricao": "GUIA"
+			},
 			"endereco": "Ecoturismo na Chapada",
 			"contatos": [
 				{
@@ -161,6 +182,10 @@
 		{
 			"uid": "11",
 			"nome": "LEONARDO ABDALLAH GUIA DE TURISMO",
+			"categoria": {
+				"uid": 4,
+				"descricao": "GUIA"
+			},
 			"endereco": "Ecoturismo na Chapada",
 			"contatos": [
 				{
@@ -176,6 +201,10 @@
 		{
 			"uid": "12",
 			"nome": "NATIVOS TURISMO E CULTURA",
+			"categoria": {
+				"uid": 3,
+				"descricao": "RECEPTIVO"
+			},
 			"endereco": "Colinas do Sul",
 			"contatos": [
 				{
@@ -190,7 +219,11 @@
 		},
 		{
 			"uid": "13",
-			"nome": "NO PÉ DA SERRA ATRATIVOS, PESQUEIRO E RESTAURANTE",
+			"nome": "NO PÉ DA SERRA",
+			"categoria": {
+				"uid": 3,
+				"descricao": "RECEPTIVO"
+			},
 			"endereco": "GO-239 km 103 - SENTIDO S O JORGE",
 			"contatos": [
 				{
@@ -205,7 +238,11 @@
 		},
 		{
 			"uid": "14",
-			"nome": "OBSERVATÓRIO DO VALE MIRANTE BAR, HOSPEDAGEM E EVENTOS",
+			"nome": "OBSERVATÓRIO DO VALE MIRANTE",
+			"categoria": {
+				"uid": 3,
+				"descricao": "RECEPTIVO"
+			},
 			"endereco": "GO-239 km 96 SENTIDO SÃO JORGE",
 			"contatos": [
 				{
@@ -220,7 +257,11 @@
 		},
 		{
 			"uid": "15",
-			"nome": "POUSO DE CAROLA HOSPEDAGEM",
+			"nome": "POUSO DE CAROLA",
+			"categoria": {
+				"uid": 1,
+				"descricao": "HOSPEDAGEM"
+			},
 			"endereco": "Rua dos Bandeirantes, Q 09 L 01, Centro",
 			"contatos": [
 				{
@@ -235,7 +276,11 @@
 		},
 		{
 			"uid": "16",
-			"nome": "POUSADA VALE DAS ARARAS HOSPEDAGEM",
+			"nome": "POUSADA VALE DAS ARARAS",
+			"categoria": {
+				"uid": 1,
+				"descricao": "HOSPEDAGEM"
+			},
 			"endereco": "GO 132 - Saída para Niquelândia",
 			"contatos": [
 				{
@@ -250,7 +295,11 @@
 		},
 		{
 			"uid": "17",
-			"nome": "RANCHO TIKIM DE TERRA HOSPEDAGEM",
+			"nome": "RANCHO TIKIM DE TERRA",
+			"categoria": {
+				"uid": 1,
+				"descricao": "HOSPEDAGEM"
+			},
 			"endereco": "Entre o Ribeirão dos Padres e o Fradinho",
 			"contatos": [
 				{
@@ -265,7 +314,11 @@
 		},
 		{
 			"uid": "18",
-			"nome": "RESTAURANTE E HAMBURGUERIA NA BRASA ALIMENTAÇÃO",
+			"nome": "HAMBURGUERIA NA BRASA",
+			"categoria": {
+				"uid": 1,
+				"descricao": "HOSPEDAGEM"
+			},
 			"endereco": "Rua Minas Gerais, Q. 76 L. 3, S/N Setor Central",
 			"contatos": [
 				{
@@ -280,7 +333,11 @@
 		},
 		{
 			"uid": "20",
-			"nome": "RECANTO DAS FLORES HOSPEDAGEM- CHALÉS",
+			"nome": "RECANTO DAS FLORES",
+			"categoria": {
+				"uid": 1,
+				"descricao": "HOSPEDAGEM"
+			},
 			"endereco": "Rua Campinas Qd 36 Lote 02- Centro",
 			"contatos": [
 				{
