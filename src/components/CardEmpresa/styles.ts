@@ -51,3 +51,10 @@ export const Logo = styled(MaterialIcon)`
 	color: ${({ theme }) => theme.colors.icone_vermelho};
 	font-size: ${RFValue(42)}px;
 `;
+
+export const ImagemLogo = styled.Image`
+	align-items: center;
+	height: ${RFValue(125)}px;
+	width: ${RFValue(125)}px;
+	border-radius: 8px;
+`;

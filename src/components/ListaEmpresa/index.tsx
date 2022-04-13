@@ -3,9 +3,11 @@ import { FlatList } from 'react-native';
 import CardEmpresa from '../CardEmpresa';
 import { BoxLista } from './styles';
 
-interface Data {}
 let ListaEmpresa = ({ lista }) => {
-	const renderItem = ({ item }) => <CardEmpresa {...item} />;
+	const renderItem = ({ item }) => (
+		<CardEmpresa nome={item.nome} contatos={item.contatos} foto={item.foto} />
+	);
+
 	return (
 		<BoxLista>
 			<FlatList

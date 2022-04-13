@@ -1,9 +1,9 @@
 import React, { useCallback, useEffect, useMemo, useState } from 'react';
 import { ActivityIndicator } from 'react-native';
 import { Container } from './styles';
-import * as prestador from '../../assets/data/prestador.json';
 import FiltroEmpresa from '../../components/FiltroEmpresa';
 import ListaEmpresa from '../../components/ListaEmpresa';
+import prest from '../../assets/data/prest';
 
 interface Contato {
 	tipo: 'insta' | 'whats' | 'other';
@@ -14,10 +14,11 @@ interface EmpresaProps {
 	nome: string;
 	endereco: string;
 	contatos: Array<Contato>;
+	foto: string;
 }
 
 const Home = () => {
-	const initialState = prestador.lista;
+	const initialState = prest.lista;
 
 	const [lista, setLista] = useState(initialState);
 	const [filtro, setFiltro] = useState('');

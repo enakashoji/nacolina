@@ -21,7 +21,8 @@
 					"tipo": "maps",
 					"endereco": "-14.149686181602995,-48.07323825366655"
 				}
-			]
+			],
+			"foto": "https://instagram.fbsb3-1.fna.fbcdn.net/v/t51.2885-19/273113734_281026067464046_8884398299381689848_n.jpg?stp=dst-jpg_s320x320&_nc_ht=instagram.fbsb3-1.fna.fbcdn.net&_nc_cat=102&_nc_ohc=4KK1x0OQuuIAX9QEJa8&edm=ABfd0MgBAAAA&ccb=7-4&oh=00_AT_RddPh72XENc-C_3UnnrKN9OAcju8o_C_lksdazhtGPw&oe=625EB5B9&_nc_sid=7bff83"
 		},
 		{
 			"uid": "2",
@@ -44,7 +45,8 @@
 					"tipo": "maps",
 					"endereco": "-14.150001387488532,-48.07331645412516"
 				}
-			]
+			],
+			"foto": "../../assets/imagens/empresas/caiua.jpeg"
 		},
 		{
 			"uid": "3",
@@ -63,7 +65,8 @@
 					"tipo": "whats",
 					"endereco": "62999575088"
 				}
-			]
+			],
+			"foto": "../../assets/imagens/empresas/empty-store.png"
 		},
 		{
 			"uid": "4",
@@ -82,7 +85,8 @@
 					"tipo": "whats",
 					"endereco": "6299658-9447"
 				}
-			]
+			],
+			"foto": "../../assets/imagens/empresas/empty-store.png"
 		},
 		{
 			"uid": "5",
@@ -101,7 +105,8 @@
 					"tipo": "other",
 					"endereco": "62999252651"
 				}
-			]
+			],
+			"foto": "../../assets/imagens/empresas/empty-store.png"
 		},
 		{
 			"uid": "6",
@@ -120,7 +125,8 @@
 					"tipo": "other",
 					"endereco": "62996949024"
 				}
-			]
+			],
+			"foto": "../../assets/imagens/empresas/empty-store.png"
 		},
 		{
 			"uid": "8",
@@ -139,7 +145,8 @@
 					"tipo": "whats",
 					"endereco": "62996745511"
 				}
-			]
+			],
+			"foto": "../../assets/imagens/empresas/empty-store.png"
 		},
 		{
 			"uid": "9",
@@ -158,7 +165,8 @@
 					"tipo": "whats",
 					"endereco": "61999990362"
 				}
-			]
+			],
+			"foto": "../../assets/imagens/empresas/empty-store.png"
 		},
 		{
 			"uid": "10",
@@ -177,7 +185,8 @@
 					"tipo": "whats",
 					"endereco": "61999447558"
 				}
-			]
+			],
+			"foto": "../../assets/imagens/empresas/empty-store.png"
 		},
 		{
 			"uid": "11",
@@ -196,7 +205,8 @@
 					"tipo": "whats",
 					"endereco": "62994273851"
 				}
-			]
+			],
+			"foto": "../../assets/imagens/empresas/empty-store.png"
 		},
 		{
 			"uid": "12",
@@ -215,7 +225,8 @@
 					"tipo": "whats",
 					"endereco": "62992101388"
 				}
-			]
+			],
+			"foto": "../../assets/imagens/empresas/empty-store.png"
 		},
 		{
 			"uid": "13",
@@ -234,7 +245,8 @@
 					"tipo": "whats",
 					"endereco": "62999386994"
 				}
-			]
+			],
+			"foto": "../../assets/imagens/empresas/empty-store.png"
 		},
 		{
 			"uid": "14",
@@ -253,7 +265,8 @@
 					"tipo": "whats",
 					"endereco": "61999908383"
 				}
-			]
+			],
+			"foto": "../../assets/imagens/empresas/empty-store.png"
 		},
 		{
 			"uid": "15",
@@ -272,7 +285,8 @@
 					"tipo": "whats",
 					"endereco": "61999447558"
 				}
-			]
+			],
+			"foto": "../../assets/imagens/empresas/empty-store.png"
 		},
 		{
 			"uid": "16",
@@ -291,7 +305,8 @@
 					"tipo": "whats",
 					"endereco": "62998040489"
 				}
-			]
+			],
+			"foto": "../../assets/imagens/empresas/empty-store.png"
 		},
 		{
 			"uid": "17",
@@ -310,7 +325,8 @@
 					"tipo": "whats",
 					"endereco": "61999111522"
 				}
-			]
+			],
+			"foto": "../../assets/imagens/empresas/empty-store.png"
 		},
 		{
 			"uid": "18",
@@ -329,7 +345,8 @@
 					"tipo": "other",
 					"endereco": "62991300180"
 				}
-			]
+			],
+			"foto": "../../assets/imagens/empresas/empty-store.png"
 		},
 		{
 			"uid": "20",
@@ -348,7 +365,8 @@
 					"tipo": "other",
 					"endereco": "61999700941"
 				}
-			]
+			],
+			"foto": "../../assets/imagens/empresas/empty-store.png"
 		}
 	]
 }

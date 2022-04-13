@@ -1,16 +1,18 @@
-import React from 'react';
-import { Linking, TouchableOpacityProps } from 'react-native';
+import React, { useEffect } from 'react';
+import { ImageProps, TouchableOpacityProps } from 'react-native';
 import {
 	BoxContato,
 	BoxDescricao,
 	BoxImagem,
 	BoxTitulo,
 	Container,
+	ImagemLogo,
 	Logo,
 	Titulo,
 } from './styles';
 
 import ContactButton from '../ContactButton';
+import buscarFotoPerfil from '../../service/api';
 
 interface Contato {
 	tipo: 'insta' | 'whats' | 'other';
@@ -18,28 +20,34 @@ interface Contato {
 }
 
 export interface CardProps extends TouchableOpacityProps {
-	uid: string;
 	nome: string;
-	endereco: string;
 	contatos: Array<Contato>;
+	foto: ImageProps['source'];
 }
 
-const CardEmpresa = ({ ...props }) => {
+const CardEmpresa = ({ nome, contatos, foto }) => {
 	const renderItem = (item: Contato) => {
 		return <ContactButton key={item.tipo} contact={item} />;
 	};
 
+	// const endereco: string = contatos
+	// 	.filter((contato) => contato.tipo === 'insta')
+	// 	.map((res) => res.endereco);
+	// const fotoPerfil = buscarFotoPerfil(endereco[0]).then((insta) =>
+	// 	console.log(insta)
+	// );
+
+	// console.log(fotoPerfil);
+
 	return (
 		<Container>
-			<BoxImagem>
-				<Logo name={'store-mall-directory'}></Logo>
-			</BoxImagem>
+			<ImagemLogo resizeMode='contain' source={{ uri: foto }} />
 			<BoxDescricao>
 				<BoxTitulo>
-					<Titulo>{props['nome']}</Titulo>
+					<Titulo>{nome}</Titulo>
 				</BoxTitulo>
 				<BoxContato>
-					{props['contatos'].map((contato) => renderItem(contato))}
+					{contatos.map((contato) => renderItem(contato))}
 				</BoxContato>
 			</BoxDescricao>
 		</Container>
