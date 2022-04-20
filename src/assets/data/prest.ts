@@ -22,7 +22,7 @@ export default {
 					endereco: '-14.149686181602995,-48.07323825366655',
 				},
 			],
-			foto: 'https://instagram.fbsb3-1.fna.fbcdn.net/v/t51.2885-19/273113734_281026067464046_8884398299381689848_n.jpg?stp=dst-jpg_s150x150&_nc_ht=instagram.fbsb3-1.fna.fbcdn.net&_nc_cat=102&_nc_ohc=4KK1x0OQuuIAX9QEJa8&edm=ABfd0MgBAAAA&ccb=7-4&oh=00_AT-Uuymn-I1vtsSIFq998TSTrCioBj9HYfVMiuQG6_Mgyg&oe=625EB5B9&_nc_sid=7bff83',
+			foto: 'https://instagram.fbsb3-1.fna.fbcdn.net/v/t51.2885-19/278443861_399426352026835_2256584309483961304_n.jpg?stp=dst-jpg_s320x320&_nc_ht=instagram.fbsb3-1.fna.fbcdn.net&_nc_cat=107&_nc_ohc=UfidrLDTrFQAX9WlSa5&edm=ABfd0MgBAAAA&ccb=7-4&oh=00_AT91ZidQ3DGXzvgygIKxCYw21K5xefmCNlPTO0nu7GoXGw&oe=6267CA46&_nc_sid=7bff83',
 		},
 		{
 			uid: '40',

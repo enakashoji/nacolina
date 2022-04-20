@@ -1,9 +1,13 @@
-import { NavigationContainerProps } from '@react-navigation/native';
 import React from 'react';
+import {
+	NavigationContainer,
+	NavigationContainerProps,
+} from '@react-navigation/native';
+import { StackRoutes } from './stack.routes';
 
 interface Props extends NavigationContainerProps {}
 
-const Routes: React.FC<Props> = ({ props: Props }) => {
+export const Routes = () => {
 	return (
 		<NavigationContainer>
 			<StackRoutes />

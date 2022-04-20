@@ -1,16 +1,16 @@
-import { useFonts } from 'expo-font';
 import React from 'react';
+import { useFonts } from 'expo-font';
 import * as Linking from 'expo-linking';
 import {
 	OpenSans_400Regular,
 	OpenSans_600SemiBold,
 	OpenSans_700Bold,
 } from '@expo-google-fonts/open-sans';
-import Home from './src/screens/Home';
-import AppLoading from 'expo-app-loading';
 import { ThemeProvider } from 'styled-components';
 import theme from './src/styles/theme';
 import { SafeAreaProvider } from 'react-native-safe-area-context';
+import Routes from './src/routes';
+import AppLoading from 'expo-app-loading';
 
 const prefix = Linking.createURL('/');
 
@@ -31,7 +31,7 @@ export default function App() {
 	return (
 		<ThemeProvider theme={theme}>
 			<SafeAreaProvider>
-				<Home />
+				<Routes />
 			</SafeAreaProvider>
 		</ThemeProvider>
 	);
