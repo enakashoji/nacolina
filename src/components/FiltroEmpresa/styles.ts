@@ -5,6 +5,7 @@ import styled from 'styled-components/native';
 export const Container = styled.View`
 	padding: 10px;
 	width: 80%;
+	margin-bottom: 10px;
 `;
 
 export const BoxFiltro = styled.View`

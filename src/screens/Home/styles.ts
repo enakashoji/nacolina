@@ -6,6 +6,7 @@ export const Container = styled.View`
 	padding-top: ${RFValue(50)}px;
 	align-items: center;
 	justify-content: center;
+	background-color: ${({ theme }) => theme.colors.fundo};
 `;
 
 export const Texto = styled.Text`
